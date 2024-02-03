@@ -24,7 +24,7 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
        <button className={styles.button} onClick={handleOnClickResume}>Grab my Resume</button>
-       <h1 className={styles.title}>Hi! I am Supratim Sarkar</h1>
+       <h1 className={styles.title}>Hi 👋 I am Supratim Sarkar</h1>
        <p className={styles.desc}>Experienced full-stack developer proficient in React.js,Next.js,Node js, Spring Boot,MongoDB and MySQL. Adept at implementing robust solutions with a focus on clean code and efficient performance. Skilled in unit testing using JUnit and React Testing. Committed to delivering high-quality software solutions and staying abreast of industry best practices.</p>
        <Experience/>
        <Projects/>

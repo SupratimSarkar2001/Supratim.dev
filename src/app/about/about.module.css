@@ -13,7 +13,7 @@
  cursor: pointer;
  border: none;
  border-radius: 5px;
- background: var(--text);
+ background: var(--btn);
  color:black;
  font-weight: 600;
  font-size: 14px;
