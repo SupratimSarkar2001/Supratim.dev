@@ -1,0 +1,40 @@
+.container {
+ padding: 20px;
+}
+
+.projects {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ margin-top: 20px;
+ justify-content: center;
+ align-items: center;
+}
+
+.projectCard {
+ border: 1px solid #e1e4e8;
+ border-radius: 6px;
+ padding: 16px;
+ width: 600px;
+ box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+@media (max-width: 768px) {
+ .projectCard {
+  width: 100%;
+ }
+ 
+}
+.projectName {
+ color: #70a9eb;
+ font-size: 18px;
+ margin-bottom: 8px;
+}
+
+.projectDescription {
+ color: var(--text);
+ margin-bottom: 12px;
+}
+
+.projectTechnologies {
+ color: #6a737d;
+}

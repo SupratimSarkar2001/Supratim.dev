@@ -1,0 +1,38 @@
+.container {
+ padding: 20px;
+}
+
+.experienceItem {
+ margin-bottom: 20px;
+ border-bottom: 1px solid #ddd;
+ padding-bottom: 15px;
+}
+
+.company {
+ color: var(--text);
+}
+
+.duration {
+ color: var(--text);
+ font-size: 14px;
+}
+
+.description {
+ color: var(--text);
+ margin-bottom: 10px;
+}
+
+.experienceItem:hover {
+ background-color: var(--bgSoft);
+}
+
+._ul{
+ list-style: none;
+ padding: 0;
+}
+
+.title{
+ color: var(--text);
+ padding: 15px;
+}
+

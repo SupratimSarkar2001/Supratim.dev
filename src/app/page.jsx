@@ -9,7 +9,9 @@ const Home = () => {
         <p className={styles.desc}>
         Embark on a journey through the cutting edge. Explore tomorrow's tech today with insights, trends, and innovations in our tech blog.
         </p>
+        <div>
         <Link href={"/contact"} className={styles.button}>Contact</Link>
+        </div>
       </div>
       <div className={styles.imgContainer}>
       <Image src="/dev.gif" alt="Our Dev" fill className={styles.heroImg}/>

@@ -27,6 +27,8 @@
  background: var(--text);
  color:black;
  font-weight: 600;
+ text-align: center;
+ max-width: 240px;
 }
 
 .imgContainer {
