@@ -27,7 +27,7 @@ const Projects = () => {
   {
    id: 4,
    name: 'Ecommerce Website',
-   description: 'This is a fullstack Ecommerce Website.',
+   description: 'This is an Ecommerce Website.',
    url: 'https://github.com/SupratimSarkar2001/amazonClone',
    technologies: ['React.js', 'BootStrap'],
   }
