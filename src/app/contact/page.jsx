@@ -3,6 +3,11 @@ import styles from './contact.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
+export const metadata = {
+  title: "Contact",
+  description: "Contact Supratim.dev",
+} 
+
 const ContactPage = () => {
   return (
     <div className={styles.container}>

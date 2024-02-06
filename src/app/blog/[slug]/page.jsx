@@ -2,7 +2,17 @@ import Image from "next/image";
 import styles from "./singlePost.module.css";import { Suspense } from "react";
 import PostUser from "@/components/postUser/PostUser";
 import { getPost } from "@/lib/data";
- 'react'
+
+export const generateMetadata = async ({ params }) => {
+  const { slug } = params;
+
+  const post = await getPost(slug);
+
+  return {
+    title: post.title,
+    description: post.desc,
+  };
+};
 
 const SingleBlogPage = async ({params}) => {
   const { slug } = params;

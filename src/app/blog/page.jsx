@@ -12,6 +12,10 @@ import { getPosts } from "@/lib/data";
 
 //   return res.json();
 // };
+export const metadata = {
+  title: "Blog",
+  description: "Blog Supratim.dev",
+}
 
 const BlogPage = async () => {
   const posts = await getPosts();
