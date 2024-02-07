@@ -14,7 +14,7 @@ export const handleLogout = async () => {
   await signOut();
 }
 
-export const register= async(formData)=>{
+export const register= async(prevSatet,formData)=>{
   const {username,email,password,passwordRepeat}=Object.fromEntries(formData);
   if(password !== passwordRepeat){
     return {error: "Passwords do not match"};
@@ -45,8 +45,7 @@ export const register= async(formData)=>{
   }
 }
 
-export const login = async (formData) => {
-  console.log(formData)
+export const login = async (prevSatet,formData) => {
   const { email, password } = Object.fromEntries(formData);
 
   try {
