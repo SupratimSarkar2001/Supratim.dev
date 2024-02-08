@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from './writeForm.module.css';
 import { useRouter } from 'next/navigation';
+import SubmitButton from '../submitButton/SubmitButton';
 const WriteForm = ({ userId }) => {
   const [formData, setFormData] = useState({
     title: '',
@@ -64,7 +65,7 @@ const WriteForm = ({ userId }) => {
           value={formData.slug}
           onChange={handleChange}
         />
-        <button>Submit</button>
+        <SubmitButton buttonText={"Submit"}/>
       </form>
     </div>
   );

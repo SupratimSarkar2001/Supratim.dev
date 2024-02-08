@@ -16,13 +16,3 @@
  border: none;
  border-radius: 5px;
 }
-
-.form button{
- padding: 20px;
- cursor: pointer;
- background-color: var(--btn);
- color: var(--textColor);
- font-weight: bold;
- border: none;
- border-radius: 5px;
-}

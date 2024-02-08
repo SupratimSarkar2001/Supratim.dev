@@ -40,12 +40,7 @@
  margin-top: 20px;
 }
 
-.img_logo{
- mix-blend-mode: multiply;
-}
-
 .link{
-  background-color: rgb(196, 194, 194);
   width: 40px;
   height: 40px;
   border-radius: 15%;
