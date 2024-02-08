@@ -2,6 +2,7 @@ import PostCard from '@/components/postCard/PostCard'
 import React from 'react'
 import styles from "./blog.module.css"
 import { getPosts } from "@/lib/data";
+import Link from 'next/link';
 
 // // FETCH DATA WITH AN API
 // const getData = async () => {
@@ -20,13 +21,18 @@ export const metadata = {
 const BlogPage = async () => {
   const posts = await getPosts();
   return (
-    <div className={styles.container}>
-      {posts.map((post) => (
-        <div className={styles.post} key={post.id}>
-          <PostCard post={post} />
-        </div>
-      ))}
+    <>
+    <div className={styles.write}>
+      <Link className={styles.button} href={"/blog/write"}>Write a Tech Blog</Link>
     </div>
+      <div className={styles.container}>
+        {posts.map((post) => (
+          <div className={styles.post} key={post.id}>
+            <PostCard post={post} />
+          </div>
+        ))}
+      </div>
+    </>
   )
 }
 

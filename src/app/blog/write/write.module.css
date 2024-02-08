@@ -1,0 +1,29 @@
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper{
+ width: 800px;
+ background-color: var(--bgSoft);
+ padding: 50px;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ gap: 30px;
+ border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+ .wrapper{
+  width: 95%;
+ }
+ 
+}
