@@ -30,7 +30,7 @@ export const authConfig = {
 
      // ONLY UNAUTHENTICATED USERS CAN REACH THE LOGIN PAGE
      if (isOnLoginPage && user) {
-       return Response.redirect(new URL("/", request.nextUrl));
+       return Response.redirect(new URL("https://supratimdev.vercel.app/", request.nextUrl));
      }
 
      return true
