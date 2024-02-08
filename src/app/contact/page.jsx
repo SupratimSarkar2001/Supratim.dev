@@ -16,7 +16,7 @@ const ContactPage = () => {
         <Image src="/contact.png" alt="contact" fill className={styles.img} />
       </div>
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Let's Get In Touch</h1>
+        <h1 className={styles.title}>Get In Touch</h1>
         <div className={styles.connectLinks}>
           <Link 
           className={styles.link}

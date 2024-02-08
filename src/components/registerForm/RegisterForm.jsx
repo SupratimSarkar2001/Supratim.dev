@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const registerForm = () => {
+const RegisterForm = () => {
   const [state, formAction] = useFormState(register, undefined)
   const router = useRouter();
   useEffect(() => {
@@ -32,4 +32,4 @@ const registerForm = () => {
   )
 }
 
-export default registerForm
+export default RegisterForm
